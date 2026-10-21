@@ -1,4 +1,4 @@
-# hierarchical-cow-behavior-monitoring
+# Hierarchical-Cow-Behavior-Monitoring
 # Precision Dairy Cow Behavior Monitoring Pipeline
 This repository contains the source code, dataset configuration, and Jupyter notebooks accompanying our published research on non-contact, automated individual monitoring of dairy cow behaviors in obstrcuted free-stall barn environments. The notebooks implement Computer Vision (CV) pipelines using Object Detection via YOLO [You only looks once], and RT-DETR-L (Real-Time Detection Transformer, large variant] using YOLO txt dataset containing 214,187 annotated images.
 ## Three-Stage Analytical Pipeline
