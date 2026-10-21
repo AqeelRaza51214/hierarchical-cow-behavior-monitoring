@@ -17,5 +17,6 @@ RT-DETR-L-ByteTrack (Day and Night conditions)
 ### Objective: Multi-object tracking (MOT) performance, identity maintenance, and continuous behavioral classification using high-crowding videos under varied illumination conditions.
 ## Target Behavioral Classes (n = 5)
 Drinking; Feeding; Resting; Standing; and Walking.
+#### Note: Tracking source code and notebooks will provided upon request to correspondence author.
 # Related Publication
 A Hierarchical Computer Vision Framework for Continuous Dairy Cow Behavior Monitoring in an Obstructed Free-Stall Barns. Smart Agricultural Technology. 10.1016/j.atech.2026.102622.
