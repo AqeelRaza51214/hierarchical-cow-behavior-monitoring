@@ -4,17 +4,17 @@ This repository contains the source code, dataset configuration, and Jupyter not
 ## Three-Stage Analytical Pipeline
 The codebase is organized around a robust three-stage computer vision and tracking framework:
 ## 1.	Object Detection Stage
-o	Models: YOLOv11m and RT-DETR-L
-o	Objective: Bounding-box detection of dairy cows.
+Models: YOLOv11m and RT-DETR-L
+### Objective: Bounding-box detection of dairy cows.
 ## 2.	Segmentation Stage
-o	Models: YOLOv11m-SAM2 and RT-DETR-L-SAM2
+Models: YOLOv11m-SAM2 and RT-DETR-L-SAM2
 ### o	Objective: Instance segmentation refinement using the Segment Anything Model 2 (SAM2) architecture. Tracking & Evaluation Stage
-o	Configurations Evaluated:
-	YOLOv11m-SAM2 (Day and Night conditions)
-	RT-DETR-L-SAM2 (Day and Night conditions)
-	YOLOv11m-ByteTrack (Day and Night conditions)
-	RT-DETR-L-ByteTrack (Day and Night conditions)
-o	Objective: Multi-object tracking (MOT) performance, identity maintenance, and continuous behavioral classification using high-crowding videos under varied illumination conditions.
+Configurations Evaluated:
+YOLOv11m-SAM2 (Day and Night conditions)
+RT-DETR-L-SAM2 (Day and Night conditions)
+YOLOv11m-ByteTrack (Day and Night conditions)
+RT-DETR-L-ByteTrack (Day and Night conditions)
+### Objective: Multi-object tracking (MOT) performance, identity maintenance, and continuous behavioral classification using high-crowding videos under varied illumination conditions.
 ## Target Behavioral Classes (n = 5)
 Drinking; Feeding; Resting; Standing; and Walking.
 # Related Publication
